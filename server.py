@@ -26,6 +26,11 @@ def write_to_file(data):
         file = database.write(f"\n{email},{subject},{message}")
 
 
+
+def got_email(data):    
+    pass
+
+
 def write_to_csv(data):
     with open("database.csv", mode="a", newline="") as database2:
         email = data["email"]
